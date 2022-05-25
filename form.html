@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    
+    <title>Forms</title>
+    
+</head>
+<body>
+    <div>
+        <form>
+        <table align="center" border="1"width="50">
+            <caption><h1>REGISTRATION FORM</h1></caption>
+            <tr>
+                <td>User name</td>
+                <td>
+                    <input type="text" name=" txt"value="your name"  required maxlength="40" size="20" pattern="[A-Z a-z]" />
+
+                </td>
+            </tr>
+            <tr>
+                <td>password</td>
+                <td><input type="password"name="txt password" autofocus required pattern="[a-z A-Z 0-9]" />
+                           </td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td><input type="number" name="txtage" min="15"max="30" value="2" /></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td> <input type="email" name="txtmail" /></td>
+            </tr>
+            <tr>
+                <td>fovourite color</td>
+                <td><input type="color" name="txtcolor" /></td>
+            </tr>
+            <tr>
+                <td>Favourite cricketer name</td>
+                <td><input type="text" name="txtname" list="players" />
+                    <datalist id="players">
+                        <option>sachin</option>
+                        <option>dhoni</option>
+                        <option>dravid</option>
+                        <option>sahwag</option>
+
+                    </datalist></td>
+            </tr>
+            <tr>
+                <td>price range</td>
+                <td><input type="range" name="txtprice" /></td>
+            </tr>
+            <tr>
+                <td>upload photo</td>
+                <td> <input type="file"name="txtfile" /></td>
+            </tr>
+            <tr>
+                <td colspan="10" align="center">
+                <input type="submit"value="register" /></td>
+            </tr>
+            </table>
+            </form>
+        
+    </div>
+
+</body>
+</html>
